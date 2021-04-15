@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+  }
+  .container{
+      width: 800px;
+      height: 100%;
+      /*background-color: cornflowerblue;*/
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8vw;
+  }
+  @media screen and (max-device-width: 800px) {
+    .container{    
+      height: 100%;
+    }
+  }
+  .logo{
+      width: 220px;
+      height: 100px;
+      margin: 2px auto auto auto;
+      /*background-color: cornsilk;*/
+  }
+  .softcom-logo {
+    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+  .texts{
+    text-align:center;
+  }
+  .head{
+    background-color: transparent;
+    color: rgb(10, 10, 10);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2px auto 2px auto;
+    opacity: 1;
+    }
+    @media screen and (max-device-width: 800px) {
+      .head{
+      
+        margin-top: 4vw;
+        font-size: 4.5vw;
+        width: 100vw;
+      }
+    }
+    @media screen and (max-device-width: 600px) {
+      .head{
+        margin-top: 4vw;
+        font-size: 5.5vw;
+        width: 100vw;
+      }
+    }
+    /* Uses vh and vm with calc 
+@media screen and (min-width: 25em){
+    html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }
+  
+  /* Safari <8 and IE <11 
+  @media screen and (min-width: 25em){
+    html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }
+  
+  @media screen and (min-width: 50em){
+  html { font-size: calc( 16px + (24 - 16) * (100vw - 400px) / (800 - 400) ); }
+  }This is comment for the code we'd have used for the heading*/ 
+  .bodi {
+  background-color: transparent;
+  color: rgb(51,51,51,1);
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 1.8vw;
+  opacity: 1;
+  margin: 15px auto 0px auto;
+  }
+  @media screen and (max-device-width: 800px) {
+    .bodi{
+    font-size: 2.5vw;
+    width: 70vw;
+    }
+  }
+  @media screen and (max-device-width: 600px) {
+    .bodi{
+    font-size: 4.5vw;
+    width: 90vw;
+    }
+  }
+  .teams {
+    width: 600px;
+    height: 825px;
+    background-color: rgba(226,250,249,1);
+    margin: 30px auto 25px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    opacity: 1;
+    /*border-radius: 40px;*/
+  }
+  .wu{
+    text-align: center;
+    color: transparent;
+  }
+  .myButton {
+    width: 358px;
+    height: 46px;
+	  background:rgb(0,75,255);
+	  border-radius: 60px;
+	  border:1px solid #1111;
+    background-position: center center;
+    background-size: cover;
+	  display:block;
+	  cursor:pointer;
+	  color:#ffffff;
+    line-height: 46px;
+	  text-decoration:none;
+    text-align: center;
+    margin: 20px auto 32px;
+  }
+  .btn-text{
+    position: relative;
+    /*width: 91px;
+    height: 36px;*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .myButton:hover {
+  	background-color:#5cbf2a;
+  }
+  .myButton:active {
+  	position:relative;
+  	top:1px;
+  }
+  .buttons {
+    margin: 0px;
+  }
+  .footer {
+    position: relative;
+    width: 308px;
+    height: 40px;
+    margin: auto;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #858383;
+    clear: both;
+    text-align: center;
+  }
